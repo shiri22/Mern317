@@ -1,0 +1,23 @@
+.card{
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 2px solid tomato;
+}
+.img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.card-body{
+    padding: 10px;
+}
+.btn{
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.rel{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+.abs{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
