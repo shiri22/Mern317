@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,900;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flex-container{
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: auto;
+}
+.container{
+    text-align: center;
+    padding-top: 10%;
+}
+.heading{
+    margin: 0;
+    color: white;
+    font-size: 56px;
+}
+.desc{
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 6px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(184, 58, 58);
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    width: 360px;
+    margin: 20px;
+}
+.card-heading{
+    border-radius: 20px;
+    position: relative;
+}
+.para{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:5px;
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+}
+.seller{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:5px;
+    margin-right: 5px;
+    background-color: rgb(226, 232, 226);
+    color: green;
+    display: inline-block;
+    border-radius: 10px;
+}
+.try{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:5px;
+    margin-right: 5px;
+    background-color: rgb(194, 189, 198);
+    color: blueviolet;
+    display: inline-block;
+    border-radius: 10px;
+}
+.img{
+    width: 100%;
+    border-radius:20px 20px 0 0;
+}
+.card-body{
+    padding-left: 10px;
+    margin: 10px;
+}
+.card-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.des{
+    font-size: 16px;
+    margin-top: 0;
+}
+.head{
+    margin-bottom: 5px;
+}
+.button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+     background-color: black;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin:0 5px 5px 0;
+}
+
+.sticky{    
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 250px;
+    display: inline;
+    display: flex;
+}
